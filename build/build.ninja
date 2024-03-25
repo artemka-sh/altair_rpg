@@ -89,6 +89,7 @@ build CMakeFiles/rpg.dir/main.cpp.o: CXX_COMPILER__rpg_Debug /home/Artem/vscode/
 build rpg: CXX_EXECUTABLE_LINKER__rpg_Debug CMakeFiles/rpg.dir/main.cpp.o
   FLAGS = -g
   LINK_FLAGS = -rdynamic
+  LINK_LIBRARIES = -lsfml-graphics  -lsfml-window  -lsfml-system
   OBJECT_DIR = CMakeFiles/rpg.dir
   POST_BUILD = :
   PRE_LINK = :
