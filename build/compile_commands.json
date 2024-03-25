@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/Artem/vscode/altair_rpg/build",
+  "command": "/usr/bin/c++ -g -o CMakeFiles/rpg.dir/main.cpp.o -c /home/Artem/vscode/altair_rpg/main.cpp",
+  "file": "/home/Artem/vscode/altair_rpg/main.cpp"
+}
+]
