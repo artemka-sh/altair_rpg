@@ -1,8 +1,14 @@
 #include <SFML/Graphics.hpp>
 
-class Some
+class Game
 {
-
+public:
+    void run();
+private:
+    void update();
+    void event();
+    void render();
+private:
 };
 
 int main()
