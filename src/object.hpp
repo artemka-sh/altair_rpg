@@ -4,11 +4,11 @@
 class Object
 {
 public:
-    Object();
+    Object(){}
 private:
     sf::Vector2f position;
     sf::Vector2f size;
-    virtual void draw(sf::RenderWindow& window);
+    virtual void draw(sf::RenderWindow& window) = 0;
     
 private:
 };

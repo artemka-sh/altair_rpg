@@ -1,11 +1,11 @@
 #include "player.hpp"
 
-// Player::Player()
-// {
-//     sf::Texture playerTexture = sf::Texture(AssetManager::GetTexture("myTexture1.png"));
-// }
+Player::Player(): Object()
+{
+    sf::Texture playerTexture = sf::Texture(AssetManager::GetTexture("myTexture1.png"));
+}
 
-// void Player::draw(sf::RenderWindow& window)
-// {
-//     window.draw(rect);
-// }
+void Player::draw(sf::RenderWindow& window) 
+{
+    window.draw(rect);
+}
