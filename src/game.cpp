@@ -1,6 +1,6 @@
 #include "game.hpp"
 
-Game::Game(): window(sf::VideoMode(500, 600), "Altair game")
+Game::Game(): window(sf::VideoMode(800, 600), "Altair game")
 {
 
 }
@@ -31,7 +31,8 @@ void Game::update()
 
 void Game::render()
 {
-
+    background.draw(window);
+    window.display();
 }
 
 void Game::run()
