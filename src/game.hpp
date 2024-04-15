@@ -1,5 +1,8 @@
 #pragma once
-#include "SFML/Graphics.hpp"
+
+#include <SFML/Graphics.hpp>
+#include "object.hpp"
+#include "assetManager.hpp"
 
 class Game
 {

@@ -1,10 +1,12 @@
 #include "assetManager.hpp"
 #include <assert.h>
 
+AssetManager* AssetManager::sInstance = nullptr;
+
 AssetManager::AssetManager()
 {
 
-   assert(sInstance == nullptr);
+    assert(sInstance == nullptr);
     sInstance = this;
 
 }

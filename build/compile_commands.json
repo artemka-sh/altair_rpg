@@ -1,6 +1,11 @@
 [
 {
   "directory": "/home/Artem/vscode/altair_rpg/build",
+  "command": "/usr/bin/g++  -I/home/Artem/vscode/altair_rpg/src -g -std=gnu++23 -o CMakeFiles/rpg.dir/src/assetManager.cpp.o -c /home/Artem/vscode/altair_rpg/src/assetManager.cpp",
+  "file": "/home/Artem/vscode/altair_rpg/src/assetManager.cpp"
+},
+{
+  "directory": "/home/Artem/vscode/altair_rpg/build",
   "command": "/usr/bin/g++  -I/home/Artem/vscode/altair_rpg/src -g -std=gnu++23 -o CMakeFiles/rpg.dir/src/game.cpp.o -c /home/Artem/vscode/altair_rpg/src/game.cpp",
   "file": "/home/Artem/vscode/altair_rpg/src/game.cpp"
 },
@@ -8,5 +13,10 @@
   "directory": "/home/Artem/vscode/altair_rpg/build",
   "command": "/usr/bin/g++  -I/home/Artem/vscode/altair_rpg/src -g -std=gnu++23 -o CMakeFiles/rpg.dir/src/main.cpp.o -c /home/Artem/vscode/altair_rpg/src/main.cpp",
   "file": "/home/Artem/vscode/altair_rpg/src/main.cpp"
+},
+{
+  "directory": "/home/Artem/vscode/altair_rpg/build",
+  "command": "/usr/bin/g++  -I/home/Artem/vscode/altair_rpg/src -g -std=gnu++23 -o CMakeFiles/rpg.dir/src/player.cpp.o -c /home/Artem/vscode/altair_rpg/src/player.cpp",
+  "file": "/home/Artem/vscode/altair_rpg/src/player.cpp"
 }
 ]

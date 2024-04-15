@@ -28,10 +28,10 @@ The CXX compiler identification is GNU, found in "/home/Artem/vscode/altair_rpg/
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/Artem/vscode/altair_rpg/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_444fa/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_444fa.dir/build.make CMakeFiles/cmTC_444fa.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0689c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0689c.dir/build.make CMakeFiles/cmTC_0689c.dir/build
 gmake[1]: Entering directory '/home/Artem/vscode/altair_rpg/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_444fa.dir/CMakeCCompilerABI.c.o
-/usr/bin/gcc   -v -o CMakeFiles/cmTC_444fa.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+Building C object CMakeFiles/cmTC_0689c.dir/CMakeCCompilerABI.c.o
+/usr/bin/gcc   -v -o CMakeFiles/cmTC_0689c.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
 Using built-in specs.
 COLLECT_GCC=/usr/bin/gcc
 Target: x86_64-rosa-linux-gnu
@@ -39,8 +39,8 @@ Configured with: ../configure --prefix=/usr --libexecdir=/usr/libexec --libdir=/
 Thread model: posix
 Supported LTO compression algorithms: zlib
 gcc version 11.4.0 20230528 (ROSA) (GCC) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_444fa.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_444fa.dir/'
- /usr/libexec/gcc/x86_64-rosa-linux-gnu/11.4.0/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_444fa.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccuHCUfR.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0689c.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0689c.dir/'
+ /usr/libexec/gcc/x86_64-rosa-linux-gnu/11.4.0/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_0689c.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/cczcPg8s.s
 GNU C17 (GCC) version 11.4.0 20230528 (ROSA) (x86_64-rosa-linux-gnu)
 	compiled by GNU C version 11.4.0 20230528 (ROSA), GMP version 6.2.1, MPFR version 4.1.0-p13, MPC version 1.3.1, isl version isl-0.24-GMP
 
@@ -58,15 +58,15 @@ GNU C17 (GCC) version 11.4.0 20230528 (ROSA) (x86_64-rosa-linux-gnu)
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 75a8d09857214fbc52be027aa211ae76
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_444fa.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_444fa.dir/'
- /usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../../x86_64-rosa-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_444fa.dir/CMakeCCompilerABI.c.o /tmp/ccuHCUfR.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0689c.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0689c.dir/'
+ /usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../../x86_64-rosa-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_0689c.dir/CMakeCCompilerABI.c.o /tmp/cczcPg8s.s
 GNU assembler version 2.38 (x86_64-rosa-linux-gnu) using BFD version (GNU Binutils) 2.38
 COMPILER_PATH=/usr/libexec/gcc/x86_64-rosa-linux-gnu/11.4.0/:/usr/libexec/gcc/x86_64-rosa-linux-gnu/11.4.0/:/usr/libexec/gcc/x86_64-rosa-linux-gnu/:/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/:/usr/lib64/gcc/x86_64-rosa-linux-gnu/:/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../../x86_64-rosa-linux-gnu/bin/
 LIBRARY_PATH=/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/:/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../../x86_64-rosa-linux-gnu/lib/:/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_444fa.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_444fa.dir/CMakeCCompilerABI.c.'
-Linking C executable cmTC_444fa
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_444fa.dir/link.txt --verbose=1
-/usr/bin/gcc  -v -rdynamic CMakeFiles/cmTC_444fa.dir/CMakeCCompilerABI.c.o -o cmTC_444fa 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0689c.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0689c.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_0689c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0689c.dir/link.txt --verbose=1
+/usr/bin/gcc  -v -rdynamic CMakeFiles/cmTC_0689c.dir/CMakeCCompilerABI.c.o -o cmTC_0689c 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/gcc
 COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-rosa-linux-gnu/11.4.0/lto-wrapper
@@ -77,9 +77,9 @@ Supported LTO compression algorithms: zlib
 gcc version 11.4.0 20230528 (ROSA) (GCC) 
 COMPILER_PATH=/usr/libexec/gcc/x86_64-rosa-linux-gnu/11.4.0/:/usr/libexec/gcc/x86_64-rosa-linux-gnu/11.4.0/:/usr/libexec/gcc/x86_64-rosa-linux-gnu/:/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/:/usr/lib64/gcc/x86_64-rosa-linux-gnu/:/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../../x86_64-rosa-linux-gnu/bin/
 LIBRARY_PATH=/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/:/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../../x86_64-rosa-linux-gnu/lib/:/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_444fa' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_444fa.'
- /usr/libexec/gcc/x86_64-rosa-linux-gnu/11.4.0/collect2 -plugin /usr/libexec/gcc/x86_64-rosa-linux-gnu/11.4.0/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-rosa-linux-gnu/11.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc02Fi3D.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_444fa /usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../../lib64/crt1.o /usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../../lib64/crti.o /usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/crtbegin.o -L/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0 -L/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../../x86_64-rosa-linux-gnu/lib -L/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../.. CMakeFiles/cmTC_444fa.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/crtend.o /usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../../lib64/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_444fa' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_444fa.'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_0689c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_0689c.'
+ /usr/libexec/gcc/x86_64-rosa-linux-gnu/11.4.0/collect2 -plugin /usr/libexec/gcc/x86_64-rosa-linux-gnu/11.4.0/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-rosa-linux-gnu/11.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccUfkYxy.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_0689c /usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../../lib64/crt1.o /usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../../lib64/crti.o /usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/crtbegin.o -L/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0 -L/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../../x86_64-rosa-linux-gnu/lib -L/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../.. CMakeFiles/cmTC_0689c.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/crtend.o /usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_0689c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_0689c.'
 gmake[1]: Leaving directory '/home/Artem/vscode/altair_rpg/build/CMakeFiles/CMakeTmp'
 
 
@@ -101,10 +101,10 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/Artem/vscode/altair_rpg/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_444fa/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_444fa.dir/build.make CMakeFiles/cmTC_444fa.dir/build]
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0689c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0689c.dir/build.make CMakeFiles/cmTC_0689c.dir/build]
   ignore line: [gmake[1]: Entering directory '/home/Artem/vscode/altair_rpg/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_444fa.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/gcc   -v -o CMakeFiles/cmTC_444fa.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Building C object CMakeFiles/cmTC_0689c.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/gcc   -v -o CMakeFiles/cmTC_0689c.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/gcc]
   ignore line: [Target: x86_64-rosa-linux-gnu]
@@ -112,8 +112,8 @@ Parsed C implicit link information from above output:
   ignore line: [Thread model: posix]
   ignore line: [Supported LTO compression algorithms: zlib]
   ignore line: [gcc version 11.4.0 20230528 (ROSA) (GCC) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_444fa.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_444fa.dir/']
-  ignore line: [ /usr/libexec/gcc/x86_64-rosa-linux-gnu/11.4.0/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_444fa.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccuHCUfR.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0689c.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0689c.dir/']
+  ignore line: [ /usr/libexec/gcc/x86_64-rosa-linux-gnu/11.4.0/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_0689c.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/cczcPg8s.s]
   ignore line: [GNU C17 (GCC) version 11.4.0 20230528 (ROSA) (x86_64-rosa-linux-gnu)]
   ignore line: [	compiled by GNU C version 11.4.0 20230528 (ROSA)  GMP version 6.2.1  MPFR version 4.1.0-p13  MPC version 1.3.1  isl version isl-0.24-GMP]
   ignore line: []
@@ -131,15 +131,15 @@ Parsed C implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 75a8d09857214fbc52be027aa211ae76]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_444fa.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_444fa.dir/']
-  ignore line: [ /usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../../x86_64-rosa-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_444fa.dir/CMakeCCompilerABI.c.o /tmp/ccuHCUfR.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0689c.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0689c.dir/']
+  ignore line: [ /usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../../x86_64-rosa-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_0689c.dir/CMakeCCompilerABI.c.o /tmp/cczcPg8s.s]
   ignore line: [GNU assembler version 2.38 (x86_64-rosa-linux-gnu) using BFD version (GNU Binutils) 2.38]
   ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-rosa-linux-gnu/11.4.0/:/usr/libexec/gcc/x86_64-rosa-linux-gnu/11.4.0/:/usr/libexec/gcc/x86_64-rosa-linux-gnu/:/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/:/usr/lib64/gcc/x86_64-rosa-linux-gnu/:/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../../x86_64-rosa-linux-gnu/bin/]
   ignore line: [LIBRARY_PATH=/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/:/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../../x86_64-rosa-linux-gnu/lib/:/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_444fa.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_444fa.dir/CMakeCCompilerABI.c.']
-  ignore line: [Linking C executable cmTC_444fa]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_444fa.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/gcc  -v -rdynamic CMakeFiles/cmTC_444fa.dir/CMakeCCompilerABI.c.o -o cmTC_444fa ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0689c.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0689c.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_0689c]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0689c.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/gcc  -v -rdynamic CMakeFiles/cmTC_0689c.dir/CMakeCCompilerABI.c.o -o cmTC_0689c ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/gcc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-rosa-linux-gnu/11.4.0/lto-wrapper]
@@ -150,13 +150,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 11.4.0 20230528 (ROSA) (GCC) ]
   ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-rosa-linux-gnu/11.4.0/:/usr/libexec/gcc/x86_64-rosa-linux-gnu/11.4.0/:/usr/libexec/gcc/x86_64-rosa-linux-gnu/:/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/:/usr/lib64/gcc/x86_64-rosa-linux-gnu/:/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../../x86_64-rosa-linux-gnu/bin/]
   ignore line: [LIBRARY_PATH=/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/:/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../../x86_64-rosa-linux-gnu/lib/:/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_444fa' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_444fa.']
-  link line: [ /usr/libexec/gcc/x86_64-rosa-linux-gnu/11.4.0/collect2 -plugin /usr/libexec/gcc/x86_64-rosa-linux-gnu/11.4.0/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-rosa-linux-gnu/11.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc02Fi3D.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_444fa /usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../../lib64/crt1.o /usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../../lib64/crti.o /usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/crtbegin.o -L/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0 -L/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../../x86_64-rosa-linux-gnu/lib -L/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../.. CMakeFiles/cmTC_444fa.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/crtend.o /usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../../lib64/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_0689c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_0689c.']
+  link line: [ /usr/libexec/gcc/x86_64-rosa-linux-gnu/11.4.0/collect2 -plugin /usr/libexec/gcc/x86_64-rosa-linux-gnu/11.4.0/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-rosa-linux-gnu/11.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccUfkYxy.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_0689c /usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../../lib64/crt1.o /usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../../lib64/crti.o /usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/crtbegin.o -L/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0 -L/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../../x86_64-rosa-linux-gnu/lib -L/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../.. CMakeFiles/cmTC_0689c.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/crtend.o /usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../../lib64/crtn.o]
     arg [/usr/libexec/gcc/x86_64-rosa-linux-gnu/11.4.0/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/libexec/gcc/x86_64-rosa-linux-gnu/11.4.0/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/libexec/gcc/x86_64-rosa-linux-gnu/11.4.0/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cc02Fi3D.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccUfkYxy.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -171,7 +171,7 @@ Parsed C implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_444fa] ==> ignore
+    arg [cmTC_0689c] ==> ignore
     arg [/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../../lib64/crt1.o] ==> obj [/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../../lib64/crt1.o]
     arg [/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../../lib64/crti.o] ==> obj [/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../../lib64/crti.o]
     arg [/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/crtbegin.o] ==> obj [/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/crtbegin.o]
@@ -181,7 +181,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
     arg [-L/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../../x86_64-rosa-linux-gnu/lib] ==> dir [/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../../x86_64-rosa-linux-gnu/lib]
     arg [-L/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../..] ==> dir [/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../..]
-    arg [CMakeFiles/cmTC_444fa.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_0689c.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -213,10 +213,10 @@ Parsed C implicit link information from above output:
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/Artem/vscode/altair_rpg/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f1f24/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f1f24.dir/build.make CMakeFiles/cmTC_f1f24.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0f61a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0f61a.dir/build.make CMakeFiles/cmTC_0f61a.dir/build
 gmake[1]: Entering directory '/home/Artem/vscode/altair_rpg/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_f1f24.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/g++   -v -o CMakeFiles/cmTC_f1f24.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Building CXX object CMakeFiles/cmTC_0f61a.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/g++   -v -o CMakeFiles/cmTC_0f61a.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
 Using built-in specs.
 COLLECT_GCC=/usr/bin/g++
 Target: x86_64-rosa-linux-gnu
@@ -224,8 +224,8 @@ Configured with: ../configure --prefix=/usr --libexecdir=/usr/libexec --libdir=/
 Thread model: posix
 Supported LTO compression algorithms: zlib
 gcc version 11.4.0 20230528 (ROSA) (GCC) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f1f24.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f1f24.dir/'
- /usr/libexec/gcc/x86_64-rosa-linux-gnu/11.4.0/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_f1f24.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccpLpbtX.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0f61a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0f61a.dir/'
+ /usr/libexec/gcc/x86_64-rosa-linux-gnu/11.4.0/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_0f61a.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccy4QG86.s
 GNU C++17 (GCC) version 11.4.0 20230528 (ROSA) (x86_64-rosa-linux-gnu)
 	compiled by GNU C version 11.4.0 20230528 (ROSA), GMP version 6.2.1, MPFR version 4.1.0-p13, MPC version 1.3.1, isl version isl-0.24-GMP
 
@@ -246,15 +246,15 @@ GNU C++17 (GCC) version 11.4.0 20230528 (ROSA) (x86_64-rosa-linux-gnu)
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: a4b873d6ba3d00b160df9154ce6ba236
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f1f24.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f1f24.dir/'
- /usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../../x86_64-rosa-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_f1f24.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccpLpbtX.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0f61a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0f61a.dir/'
+ /usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../../x86_64-rosa-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_0f61a.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccy4QG86.s
 GNU assembler version 2.38 (x86_64-rosa-linux-gnu) using BFD version (GNU Binutils) 2.38
 COMPILER_PATH=/usr/libexec/gcc/x86_64-rosa-linux-gnu/11.4.0/:/usr/libexec/gcc/x86_64-rosa-linux-gnu/11.4.0/:/usr/libexec/gcc/x86_64-rosa-linux-gnu/:/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/:/usr/lib64/gcc/x86_64-rosa-linux-gnu/:/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../../x86_64-rosa-linux-gnu/bin/
 LIBRARY_PATH=/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/:/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../../x86_64-rosa-linux-gnu/lib/:/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f1f24.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f1f24.dir/CMakeCXXCompilerABI.cpp.'
-Linking CXX executable cmTC_f1f24
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f1f24.dir/link.txt --verbose=1
-/usr/bin/g++  -v -rdynamic CMakeFiles/cmTC_f1f24.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_f1f24 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0f61a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0f61a.dir/CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_0f61a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0f61a.dir/link.txt --verbose=1
+/usr/bin/g++  -v -rdynamic CMakeFiles/cmTC_0f61a.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_0f61a 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/g++
 COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-rosa-linux-gnu/11.4.0/lto-wrapper
@@ -265,9 +265,9 @@ Supported LTO compression algorithms: zlib
 gcc version 11.4.0 20230528 (ROSA) (GCC) 
 COMPILER_PATH=/usr/libexec/gcc/x86_64-rosa-linux-gnu/11.4.0/:/usr/libexec/gcc/x86_64-rosa-linux-gnu/11.4.0/:/usr/libexec/gcc/x86_64-rosa-linux-gnu/:/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/:/usr/lib64/gcc/x86_64-rosa-linux-gnu/:/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../../x86_64-rosa-linux-gnu/bin/
 LIBRARY_PATH=/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/:/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../../x86_64-rosa-linux-gnu/lib/:/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_f1f24' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_f1f24.'
- /usr/libexec/gcc/x86_64-rosa-linux-gnu/11.4.0/collect2 -plugin /usr/libexec/gcc/x86_64-rosa-linux-gnu/11.4.0/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-rosa-linux-gnu/11.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccTY7FBv.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_f1f24 /usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../../lib64/crt1.o /usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../../lib64/crti.o /usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/crtbegin.o -L/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0 -L/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../../x86_64-rosa-linux-gnu/lib -L/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../.. CMakeFiles/cmTC_f1f24.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/crtend.o /usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../../lib64/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_f1f24' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_f1f24.'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_0f61a' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_0f61a.'
+ /usr/libexec/gcc/x86_64-rosa-linux-gnu/11.4.0/collect2 -plugin /usr/libexec/gcc/x86_64-rosa-linux-gnu/11.4.0/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-rosa-linux-gnu/11.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccTr0aW1.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_0f61a /usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../../lib64/crt1.o /usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../../lib64/crti.o /usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/crtbegin.o -L/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0 -L/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../../x86_64-rosa-linux-gnu/lib -L/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../.. CMakeFiles/cmTC_0f61a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/crtend.o /usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_0f61a' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_0f61a.'
 gmake[1]: Leaving directory '/home/Artem/vscode/altair_rpg/build/CMakeFiles/CMakeTmp'
 
 
@@ -295,10 +295,10 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/Artem/vscode/altair_rpg/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f1f24/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f1f24.dir/build.make CMakeFiles/cmTC_f1f24.dir/build]
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0f61a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0f61a.dir/build.make CMakeFiles/cmTC_0f61a.dir/build]
   ignore line: [gmake[1]: Entering directory '/home/Artem/vscode/altair_rpg/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_f1f24.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/g++   -v -o CMakeFiles/cmTC_f1f24.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Building CXX object CMakeFiles/cmTC_0f61a.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/g++   -v -o CMakeFiles/cmTC_0f61a.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/g++]
   ignore line: [Target: x86_64-rosa-linux-gnu]
@@ -306,8 +306,8 @@ Parsed CXX implicit link information from above output:
   ignore line: [Thread model: posix]
   ignore line: [Supported LTO compression algorithms: zlib]
   ignore line: [gcc version 11.4.0 20230528 (ROSA) (GCC) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f1f24.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f1f24.dir/']
-  ignore line: [ /usr/libexec/gcc/x86_64-rosa-linux-gnu/11.4.0/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_f1f24.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccpLpbtX.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0f61a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0f61a.dir/']
+  ignore line: [ /usr/libexec/gcc/x86_64-rosa-linux-gnu/11.4.0/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_0f61a.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccy4QG86.s]
   ignore line: [GNU C++17 (GCC) version 11.4.0 20230528 (ROSA) (x86_64-rosa-linux-gnu)]
   ignore line: [	compiled by GNU C version 11.4.0 20230528 (ROSA)  GMP version 6.2.1  MPFR version 4.1.0-p13  MPC version 1.3.1  isl version isl-0.24-GMP]
   ignore line: []
@@ -328,15 +328,15 @@ Parsed CXX implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: a4b873d6ba3d00b160df9154ce6ba236]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f1f24.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f1f24.dir/']
-  ignore line: [ /usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../../x86_64-rosa-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_f1f24.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccpLpbtX.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0f61a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0f61a.dir/']
+  ignore line: [ /usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../../x86_64-rosa-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_0f61a.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccy4QG86.s]
   ignore line: [GNU assembler version 2.38 (x86_64-rosa-linux-gnu) using BFD version (GNU Binutils) 2.38]
   ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-rosa-linux-gnu/11.4.0/:/usr/libexec/gcc/x86_64-rosa-linux-gnu/11.4.0/:/usr/libexec/gcc/x86_64-rosa-linux-gnu/:/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/:/usr/lib64/gcc/x86_64-rosa-linux-gnu/:/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../../x86_64-rosa-linux-gnu/bin/]
   ignore line: [LIBRARY_PATH=/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/:/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../../x86_64-rosa-linux-gnu/lib/:/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f1f24.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f1f24.dir/CMakeCXXCompilerABI.cpp.']
-  ignore line: [Linking CXX executable cmTC_f1f24]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f1f24.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/g++  -v -rdynamic CMakeFiles/cmTC_f1f24.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_f1f24 ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0f61a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0f61a.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX executable cmTC_0f61a]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0f61a.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/g++  -v -rdynamic CMakeFiles/cmTC_0f61a.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_0f61a ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/g++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-rosa-linux-gnu/11.4.0/lto-wrapper]
@@ -347,13 +347,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 11.4.0 20230528 (ROSA) (GCC) ]
   ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-rosa-linux-gnu/11.4.0/:/usr/libexec/gcc/x86_64-rosa-linux-gnu/11.4.0/:/usr/libexec/gcc/x86_64-rosa-linux-gnu/:/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/:/usr/lib64/gcc/x86_64-rosa-linux-gnu/:/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../../x86_64-rosa-linux-gnu/bin/]
   ignore line: [LIBRARY_PATH=/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/:/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../../x86_64-rosa-linux-gnu/lib/:/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_f1f24' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_f1f24.']
-  link line: [ /usr/libexec/gcc/x86_64-rosa-linux-gnu/11.4.0/collect2 -plugin /usr/libexec/gcc/x86_64-rosa-linux-gnu/11.4.0/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-rosa-linux-gnu/11.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccTY7FBv.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_f1f24 /usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../../lib64/crt1.o /usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../../lib64/crti.o /usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/crtbegin.o -L/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0 -L/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../../x86_64-rosa-linux-gnu/lib -L/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../.. CMakeFiles/cmTC_f1f24.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/crtend.o /usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../../lib64/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_0f61a' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_0f61a.']
+  link line: [ /usr/libexec/gcc/x86_64-rosa-linux-gnu/11.4.0/collect2 -plugin /usr/libexec/gcc/x86_64-rosa-linux-gnu/11.4.0/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-rosa-linux-gnu/11.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccTr0aW1.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_0f61a /usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../../lib64/crt1.o /usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../../lib64/crti.o /usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/crtbegin.o -L/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0 -L/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../../x86_64-rosa-linux-gnu/lib -L/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../.. CMakeFiles/cmTC_0f61a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/crtend.o /usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../../lib64/crtn.o]
     arg [/usr/libexec/gcc/x86_64-rosa-linux-gnu/11.4.0/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/libexec/gcc/x86_64-rosa-linux-gnu/11.4.0/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/libexec/gcc/x86_64-rosa-linux-gnu/11.4.0/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccTY7FBv.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccTr0aW1.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -368,7 +368,7 @@ Parsed CXX implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_f1f24] ==> ignore
+    arg [cmTC_0f61a] ==> ignore
     arg [/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../../lib64/crt1.o] ==> obj [/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../../lib64/crt1.o]
     arg [/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../../lib64/crti.o] ==> obj [/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../../lib64/crti.o]
     arg [/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/crtbegin.o] ==> obj [/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/crtbegin.o]
@@ -378,7 +378,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
     arg [-L/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../../x86_64-rosa-linux-gnu/lib] ==> dir [/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../../../x86_64-rosa-linux-gnu/lib]
     arg [-L/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../..] ==> dir [/usr/lib64/gcc/x86_64-rosa-linux-gnu/11.4.0/../../..]
-    arg [CMakeFiles/cmTC_f1f24.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_0f61a.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
