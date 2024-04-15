@@ -1,3 +1,0 @@
-/home/Artem/vscode/altair_rpg/build/CMakeFiles/rebuild_cache.dir
-/home/Artem/vscode/altair_rpg/build/CMakeFiles/edit_cache.dir
-/home/Artem/vscode/altair_rpg/build/CMakeFiles/rpg.dir
