@@ -1,19 +1,12 @@
 #include <SFML/Graphics.hpp>
+#include "game.hpp"
 
-class Game
-{
-public:
-    void run();
-private:
-    void update();
-    void event();
-    void render();
-private:
-};
+
 
 int main()
 {
-    sf::RenderWindow(sf::VideoMode(500, 600), "Altair game");
-    
+
+    Game game;
+    game.run();
     return 0;
 }
