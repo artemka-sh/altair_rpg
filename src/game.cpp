@@ -1,8 +1,8 @@
 #include "game.hpp"
 
-Game::Game(): window(sf::VideoMode(800, 600), "Altair game")
+Game::Game(): window(sf::VideoMode(screenSize.x, screenSize.y), "Altair game")
 {
-
+    window.setFramerateLimit(60);
 }
 
 void Game::events()

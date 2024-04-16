@@ -8,7 +8,6 @@ AssetManager::AssetManager()
 
     assert(sInstance == nullptr);
     sInstance = this;
-
 }
 
 sf::Texture& AssetManager::GetTexture(std::string const& filename)
