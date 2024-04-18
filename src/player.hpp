@@ -2,6 +2,7 @@
 #include <SFML/Graphics.hpp>
 #include "object.hpp"
 #include "assetManager.hpp"
+#include "windowManager.hpp"
 
 class Player: Object
 {
@@ -10,5 +11,5 @@ class Player: Object
         sf::Texture playerTexture;
     public:
         Player();
-        void draw(sf::RenderWindow& window) override;
+        void draw() override;
 };

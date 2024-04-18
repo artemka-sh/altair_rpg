@@ -1,17 +1,17 @@
 #include "game.hpp"
 
-Game::Game(): window(sf::VideoMode(screenSize.x, screenSize.y), "Altair game")
+Game::Game()
 {
-    window.setFramerateLimit(60);
+
 }
 
 void Game::events()
 {
     sf::Event event;
-    while (window.pollEvent(event))
+    while (WindowManager::getWindow().pollEvent(event))
     {
         if (event.type == sf::Event::Closed)
-            window.close();
+            WindowManager::getWindow().close();
 
 
         // if (event.type == sf::Event::EventType::KeyPressed && 
@@ -31,13 +31,13 @@ void Game::update()
 
 void Game::render()
 {
-    background.draw(window);
-    window.display();
+    background.draw();
+    WindowManager::getWindow().display();
 }
 
 void Game::run()
 {
-    while (window.isOpen())
+    while (WindowManager::getWindow().isOpen())
     {
         events();
         update();

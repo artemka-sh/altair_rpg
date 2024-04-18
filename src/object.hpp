@@ -8,7 +8,7 @@ public:
 private:
     sf::Vector2f position;
     sf::Vector2f size;
-    virtual void draw(sf::RenderWindow& window) = 0;
+    virtual void draw() = 0;
     
 private:
 };
