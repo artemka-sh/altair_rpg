@@ -8,8 +8,14 @@ class Player: Object
 {
     private:
         sf::RectangleShape rect;
-        sf::Texture playerTexture;
+        bool actionState = false;
     public:
+        
         Player();
+        void update();
+        void fart();
         void draw() override;
+        void setSize(const sf::Vector2f&);
+        void setPosition(const sf::Vector2f&);
+        void setAction(bool);
 };

@@ -5,7 +5,7 @@ class Object
 {
 public:
     Object(){}
-private:
+protected:
     sf::Vector2f position;
     sf::Vector2f size;
     virtual void draw() = 0;

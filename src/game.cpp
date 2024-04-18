@@ -2,7 +2,8 @@
 
 Game::Game()
 {
-
+    player.setSize(sf::Vector2f(100, 100));
+    player.setPosition(sf::Vector2f(100, 400));
 }
 
 void Game::events()
@@ -14,11 +15,16 @@ void Game::events()
             WindowManager::getWindow().close();
 
 
-        // if (event.type == sf::Event::EventType::KeyPressed && 
-        // event.key.code == sf::Keyboard::Space)
-        // {
-
-        // }
+        if (event.type == sf::Event::EventType::KeyPressed && 
+        event.key.code == sf::Keyboard::Space)
+        {
+            player.setAction(true);
+        }
+        if (event.type == sf::Event::EventType::KeyReleased && 
+        event.key.code == sf::Keyboard::Space)
+        {
+            player.setAction(false);
+        }
 
     }
 
@@ -26,12 +32,13 @@ void Game::events()
 
 void Game::update()
 {
-    
+    player.update();
 }
 
 void Game::render()
 {
     background.draw();
+    player.draw();
     WindowManager::getWindow().display();
 }
 

@@ -18,6 +18,7 @@ private:
     AssetManager manager;
     sf::Clock deltaClock;
     Background background;
+    Player player;
     float dt;
     void update();
     void events();
