@@ -1,5 +1,4 @@
 #pragma once
-
 #include <SFML/Graphics.hpp>
 #include "windowManager.hpp"
 #include "object.hpp"
@@ -7,6 +6,7 @@
 #include "player.hpp"
 #include "background.hpp"
 #include "constants.hpp"
+#include "effectManager.hpp"
 
 class Game
 {
@@ -15,7 +15,8 @@ public:
     Game();
 private:
     WindowManager window;
-    AssetManager manager;
+    AssetManager assets;
+    EffectManager effects;
     sf::Clock deltaClock;
     Background background;
     Player player;

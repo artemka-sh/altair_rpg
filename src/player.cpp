@@ -1,10 +1,10 @@
 #include "player.hpp"
 #include "constants.hpp"
 #include <iostream>
+
 Player::Player(): Object()
 {
     rect.setOrigin(size.x/2.0f, size.y/2.0f);
-    std::cout << size.x << " " << size.y << std::endl;
     rect.setTexture(&AssetManager::GetTexture(DATA_PATH + "player.png"));
 }
 
@@ -42,5 +42,6 @@ void Player::setAction(bool state)
 
 void Player::fart()
 {
-    
+    std::cout << " объект создан " << std::endl;
+    EffectManager::newEffect(DATA_PATH + "cloud.png", sf::Vector2f(50, 50), 2);
 }

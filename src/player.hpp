@@ -3,12 +3,14 @@
 #include "object.hpp"
 #include "assetManager.hpp"
 #include "windowManager.hpp"
+#include "effectManager.hpp"
 
 class Player: Object
 {
     private:
         sf::RectangleShape rect;
         bool actionState = false;
+
     public:
         
         Player();

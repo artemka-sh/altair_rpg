@@ -4,6 +4,7 @@ Game::Game()
 {
     player.setSize(sf::Vector2f(100, 100));
     player.setPosition(sf::Vector2f(100, 400));
+    WindowManager::getWindow().setFramerateLimit(FRAMERATE_LIMIT);
 }
 
 void Game::events()
@@ -33,11 +34,14 @@ void Game::events()
 void Game::update()
 {
     player.update();
+    EffectManager::update();
 }
 
 void Game::render()
 {
-    background.draw();
+    WindowManager::getWindow().clear();
+    //background.draw();
+    EffectManager::draw();
     player.draw();
     WindowManager::getWindow().display();
 }

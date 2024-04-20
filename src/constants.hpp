@@ -7,4 +7,5 @@ const std::string DATA_PATH = "data/";
 
 // WINDOW
 const sf::Vector2f DEFAULT_SCREEN_SIZE(800, 600);
+const unsigned int FRAMERATE_LIMIT = 60;
 
