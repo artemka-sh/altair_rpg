@@ -5,7 +5,7 @@
 #include "windowManager.hpp"
 #include "effectManager.hpp"
 
-class Player: Object
+class Player: public Object
 {
     private:
         sf::RectangleShape rect;

@@ -42,6 +42,5 @@ void Player::setAction(bool state)
 
 void Player::fart()
 {
-    std::cout << " объект создан " << std::endl;
     EffectManager::newEffect(DATA_PATH + "cloud.png", sf::Vector2f(50, 50), 2);
 }

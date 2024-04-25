@@ -4,7 +4,7 @@
 #include "assetManager.hpp"
 #include "windowManager.hpp"
 
-class Background: Object
+class Background: public Object
 {
     private:
         sf::RectangleShape rect;

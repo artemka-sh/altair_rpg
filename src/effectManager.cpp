@@ -1,7 +1,6 @@
 #include "effectManager.hpp"
 #include <assert.h>
 #include "windowManager.hpp"
-#include <iostream>
 
 EffectManager* EffectManager::sInstance = nullptr;
 
@@ -23,13 +22,11 @@ void EffectManager::update()
     auto& effMap = sInstance->m_Effects;
     for(auto iter = effMap.begin(); iter != effMap.end(); iter++)
     {
-        std::cout << (*iter)->second << std::endl;
         if((*iter)->second <= 0)
         {
             if(true)
             {
                 effMap.erase(iter);
-                std::cout <<"объект удалён" << std::endl;
                 break;
             }
         }

@@ -2,11 +2,21 @@
 
 Game::Game()
 {
-    player.setSize(sf::Vector2f(100, 100));
-    player.setPosition(sf::Vector2f(100, 400));
+    Objects["player"] = new Player();
+    Objects["background"] = new Background();
+
+    player = static_cast<Player*>(Objects["player"]);
+    background = static_cast<Background*>(Objects["background"]);
+
+    player->setSize(sf::Vector2f(100, 100));
+    player->setPosition(sf::Vector2f(100, 400));
     WindowManager::getWindow().setFramerateLimit(FRAMERATE_LIMIT);
 }
 
+Game::~Game()
+{
+    Objects.clear();
+}
 void Game::events()
 {
     sf::Event event;
@@ -19,12 +29,12 @@ void Game::events()
         if (event.type == sf::Event::EventType::KeyPressed && 
         event.key.code == sf::Keyboard::Space)
         {
-            player.setAction(true);
+            player->setAction(true);
         }
         if (event.type == sf::Event::EventType::KeyReleased && 
         event.key.code == sf::Keyboard::Space)
         {
-            player.setAction(false);
+            player->setAction(false);
         }
 
     }
@@ -33,16 +43,16 @@ void Game::events()
 
 void Game::update()
 {
-    player.update();
+    player->update();
     EffectManager::update();
 }
 
 void Game::render()
 {
-    WindowManager::getWindow().clear();
-    //background.draw();
+    WindowManager::getWindow().clear();  
+    background->draw();
     EffectManager::draw();
-    player.draw();
+    player->draw();
     WindowManager::getWindow().display();
 }
 
