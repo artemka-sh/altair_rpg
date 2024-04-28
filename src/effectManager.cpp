@@ -11,7 +11,7 @@ EffectManager::EffectManager()
     sInstance = this;
 }
 
-void EffectManager::newEffect(const std::string &filename, sf::Vector2f pos, int time)
+void EffectManager::newEffect(const std::string &filename, sf::Vector2f pos, int time, EffectType effectType)
 {
     auto& effMap = sInstance->m_Effects;
     effMap.push_back(new std::pair<Effect, int>(Effect(filename, pos), time));
@@ -24,11 +24,8 @@ void EffectManager::update()
     {
         if((*iter)->second <= 0)
         {
-            if(true)
-            {
-                effMap.erase(iter);
-                break;
-            }
+            effMap.erase(iter);
+            break;
         }
         else
         {

@@ -7,7 +7,7 @@
 
 class Player: public Object
 {
-    private:
+    protected:
         sf::RectangleShape rect;
         bool actionState = false;
 

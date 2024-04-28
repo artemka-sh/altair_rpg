@@ -3,13 +3,20 @@
 Game::Game()
 {
     Objects["player"] = new Player();
+    Objects["antagonist"] = new Antagonist();
     Objects["background"] = new Background();
+    Objects["scale"] = new Scale(sf::Vector2f(10, 10), 30);
 
     player = static_cast<Player*>(Objects["player"]);
     background = static_cast<Background*>(Objects["background"]);
+    antagonist = static_cast<Antagonist*>(Objects["antagonist"]);
+    scale = static_cast<Scale*>(Objects["scale"]);
 
     player->setSize(sf::Vector2f(100, 100));
-    player->setPosition(sf::Vector2f(100, 400));
+    player->setPosition(sf::Vector2f(570, 450));
+
+    antagonist->setSize(sf::Vector2f(100, 100));
+    antagonist->setPosition(sf::Vector2f(180, 450));
     WindowManager::getWindow().setFramerateLimit(FRAMERATE_LIMIT);
 }
 
@@ -44,6 +51,7 @@ void Game::events()
 void Game::update()
 {
     player->update();
+    antagonist->update();
     EffectManager::update();
 }
 
@@ -53,6 +61,8 @@ void Game::render()
     background->draw();
     EffectManager::draw();
     player->draw();
+    antagonist->draw();
+    scale->draw();
     WindowManager::getWindow().display();
 }
 

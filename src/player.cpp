@@ -1,6 +1,5 @@
 #include "player.hpp"
 #include "constants.hpp"
-#include <iostream>
 
 Player::Player(): Object()
 {
@@ -12,7 +11,6 @@ void Player::update()
 {
     if(actionState)
     {
-        rect.rotate(0.5);
         fart();
     }
 }
@@ -42,5 +40,5 @@ void Player::setAction(bool state)
 
 void Player::fart()
 {
-    EffectManager::newEffect(DATA_PATH + "cloud.png", sf::Vector2f(50, 50), 2);
+    EffectManager::newEffect(DATA_PATH + "cloud.png", position-size, 4);
 }

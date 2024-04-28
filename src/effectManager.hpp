@@ -6,6 +6,8 @@
 #include <vector>
 #include <utility>
 
+enum class EffectType{Default, Cloud, Test1, Test2};
+
 class EffectManager
 {
 private:
@@ -13,7 +15,7 @@ private:
     std::vector<std::pair<Effect, int>*> m_Effects;
 public:
     EffectManager();
-    static void newEffect(const std::string &filename, sf::Vector2f pos, int time);
+    static void newEffect(const std::string &filename, sf::Vector2f pos, int time = 5, EffectType = EffectType::Default);
     static void update();
     static void draw();
 };
