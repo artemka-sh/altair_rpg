@@ -5,7 +5,7 @@ Game::Game()
     Objects["player"] = new Player();
     Objects["antagonist"] = new Antagonist();
     Objects["background"] = new Background();
-    Objects["scale"] = new Scale(sf::Vector2f(10, 10), 30);
+    Objects["scale"] = new Scale(sf::Vector2f(BORDER_SIZE, BORDER_SIZE), MAX_VALUE);
 
     player = static_cast<Player*>(Objects["player"]);
     background = static_cast<Background*>(Objects["background"]);
@@ -37,11 +37,13 @@ void Game::events()
         event.key.code == sf::Keyboard::Space)
         {
             player->setAction(true);
+            scale->setActionState(true);
         }
         if (event.type == sf::Event::EventType::KeyReleased && 
         event.key.code == sf::Keyboard::Space)
         {
             player->setAction(false);
+            scale->setActionState(false);
         }
 
     }
@@ -52,6 +54,7 @@ void Game::update()
 {
     player->update();
     antagonist->update();
+    scale->update();
     EffectManager::update();
 }
 

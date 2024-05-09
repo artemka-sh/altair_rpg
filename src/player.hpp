@@ -4,6 +4,7 @@
 #include "assetManager.hpp"
 #include "windowManager.hpp"
 #include "effectManager.hpp"
+#include "constants.hpp"
 
 class Player: public Object
 {
