@@ -13,4 +13,4 @@ add_executable(rpg ${GAME_SOURCES})
 target_include_directories(rpg PUBLIC "./include")
 target_link_libraries(rpg sfml-audio sfml-graphics sfml-window sfml-system)
 
-file(COPY ${CMAKE_SOURCE_DIR}/data DESTINATION ${CMAKE_BINARY_DIR})
+file(COPY ${CMAKE_SOURCE_DIR}/data DESTINATION ${CMAKE_BINARY_DIR}) 
