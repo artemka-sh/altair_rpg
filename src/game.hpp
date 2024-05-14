@@ -11,6 +11,7 @@
 #include "constants.hpp"
 #include "effectManager.hpp"
 #include "scale.hpp"
+#include "car.hpp"
 
 class Game
 {
@@ -28,6 +29,7 @@ private:
     Antagonist* antagonist;
     Background* background;
     Scale* scale;
+    Car car;
     float dt;
     void update();
     void events();

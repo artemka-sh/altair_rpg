@@ -67,6 +67,10 @@ void Game::render()
     antagonist->draw();
     scale->draw();
     WindowManager::getWindow().display();
+
+    //debag
+    car.draw();
+    //
 }
 
 void Game::run()

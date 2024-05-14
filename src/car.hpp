@@ -1,5 +1,7 @@
 #pragma once
 #include <SFML/Graphics.hpp>
+#include "assetManager.hpp"
+#include "windowManager.hpp"
 #include "constants.hpp"
 #include "object.hpp"
 
