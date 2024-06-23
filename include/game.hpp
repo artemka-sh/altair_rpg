@@ -29,7 +29,7 @@ private:
     Antagonist* antagonist;
     Background* background;
     Scale* scale;
-    Car car;
+    Car* car;
     float dt;
     void update();
     void events();
