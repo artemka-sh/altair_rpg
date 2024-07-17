@@ -1,1 +1,1 @@
-This is an abandoned project and there is nothing to see here.  Although he helped me a lot
+This is an abandoned project and there is nothing to see here.  although he helped me with some things
